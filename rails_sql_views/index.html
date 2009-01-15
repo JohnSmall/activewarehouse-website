@@ -24,7 +24,8 @@
     <ul class="links">
       <li><a href="http://rubyforge.org/projects/activewarehouse/">RubyForge Project</a></li>
       <li><a href="http://rubyforge.org/mailman/listinfo/activewarehouse-discuss">Mailing List</a></li>
-      <li><a href="http://rubyforge.org/viewvc/rails_sql_views/trunk/?root=activewarehouse">Subversion Repository</a></li>
+      <li><a href="http://github.com/aeden/rails_sql_views/tree/master">Github</a></li>
+      <li><a href="git://github.com/aeden/rails_sql_views.git">Clone URL</a></li>
       <li><a href="rdoc">API Documentation</a></li>
     </ul>
   </li>
@@ -62,21 +63,18 @@
         <dd>Get to your command line and type <code>sudo gem install rails_sql_views</code> on Linux or OS X or type <code>gem install rails_sql_views</code> on Windows. Rails SQL Views depends on ActiveRecord. If necessary you may have to approve the installation of these dependencies if they are not already installed.</dd>
         <dt>Download</dt>
         <dd>You can also download the packages in Zip, Gzip, or Gem format from the <a href="http://rubyforge.org/frs/?group_id=2435&amp;release_id=8648">ActiveWarehouse files section</a> on RubyForge.</dd>
-        <dt>Plugin</dt>
-        <dd>You can install Rails SQL Views as a plugin if you have the Subversion command line client, with the following command: <code>script/plugin install svn://rubyforge.org/var/svn/activewarehouse/rails_sql_views/trunk</code></dd>
-        <dt>Subversion Checkout</dt>
-        <dd>For the brave you can get the latest code from the Subversion repository. To get the code from the subversion repository you may use the following command line: <code>svn co svn://rubyforge.org/var/svn/activewarehouse/rails_sql_views/trunk</code>.</dd>
+        <dt>Github Clone</dt>
+        <dd>For the brave you can get the latest code from the Github repository: <code>git clone git://github.com/aeden/rails_sql_views.git </code>.</dd>
       </dl>
     </li>
     
     <li>
       <h2>Require Statements</h2>
-      <p>If you are using the Gem version, then add the following to your <code>config/environment.rb</code>:</p>
+      <p>Add the following to your <code>config/environment.rb</code>:</p>
 <pre>
-  require_gem 'rails_sql_views'
+  require 'rubygems'
   require 'rails_sql_views'
 </pre>
-      <p>If you are using the plugin then you don't need to do anything.</p>
     </li>
     <li>
       <h2>Use It!</h2>
@@ -113,7 +111,7 @@
   </ul>
   
   <div id="contact">
-    Copyright 2006-2007, All Rights Reserved<br />
+    Copyright 2006-2008, All Rights Reserved<br />
     Anthony's Email:<a href="mailto:anthonyeden@gmail.com">anthonyeden@gmail.com</a>
   </div>
 </div>
